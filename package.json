@@ -4,10 +4,9 @@
   "description": "A NPM package that forces SSL redirect on user requests",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
     "build": "npm run lint && babel ./src -d ./lib",
     "lint": "eslint ./lib",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
