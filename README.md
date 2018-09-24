@@ -10,7 +10,7 @@ By default this module also checks for anormallies like google.com and forcing i
 
 
 ## How It Works
-The `strong-ssl-redirect` module does not redirect to HTTPS when running on a localhost as that is typically not secured with an SSL certificate. You can use ngrok.io for this purpose and to tunnel traffic to your localhost `redirectLocalhost` parameter in your `app.use` call.
+The `strong-ssl-redirect` module does not redirect to HTTPS when running on a localhost as that is typically not secured with an SSL certificate. You can use ngrok.io for this purpose and to tunnel traffic to your localhost.
 
 ## Installation
 
