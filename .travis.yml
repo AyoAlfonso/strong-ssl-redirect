@@ -8,4 +8,4 @@ branches:
 before_script:
   - npm install
 script:
-  - npm lint
+  - npm run lint
