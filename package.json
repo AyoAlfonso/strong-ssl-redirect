@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build": "babel ./src -d ./lib",
-    "lint": "eslint ./src",
+    "build": "npm run lint && babel ./src -d ./lib",
+    "lint": "eslint ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
