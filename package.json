@@ -5,6 +5,8 @@
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
+        "build": "npm run lint && babel ./src -d ./lib",
+        "lint": "eslint ./src",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
@@ -28,5 +30,10 @@
     ],
     "author": "Ayo Alfonso",
     "homepage": "https://github.com/AyoAlfonso/strong-ssl-redirect#readme",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^5.6.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.14.0"
+    }
 }
