@@ -1,39 +1,41 @@
 {
-    "name": "strong-ssl-redirect",
-    "version": "0.0.1",
-    "description": "A NPM package that forces SSL redirect on user requests",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js",
-        "build": "npm run lint && babel ./src -d ./lib",
-        "lint": "eslint ./src",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-        "dotenv": "^6.0.0",
-        "express": "^4.16.3"
-    },
-    "engines": {
-        "node": "7.10.1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AyoAlfonso/strong-ssl-redirect"
-    },
-    "keywords": [
-        "node",
-        "heroku",
-        "express",
-        "ssl",
-        "https",
-        "aws"
-    ],
-    "author": "Ayo Alfonso",
-    "homepage": "https://github.com/AyoAlfonso/strong-ssl-redirect#readme",
-    "license": "MIT",
-    "devDependencies": {
-        "eslint": "^5.6.0",
-        "eslint-config-airbnb-base": "^13.1.0",
-        "eslint-plugin-import": "^2.14.0"
-    }
+  "name": "strong-ssl-redirect",
+  "version": "0.0.1",
+  "description": "A NPM package that forces SSL redirect on user requests",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "babel ./src -d ./lib",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "7.10.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AyoAlfonso/strong-ssl-redirect"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "ssl",
+    "https",
+    "aws"
+  ],
+  "author": "Ayo Alfonso",
+  "homepage": "https://github.com/AyoAlfonso/strong-ssl-redirect#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
 }
