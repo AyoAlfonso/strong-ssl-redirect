@@ -1,6 +1,4 @@
-# strong-ssl-redirect  [![Build Status](https://travis-ci.com/AyoAlfonso/strong-ssl-redirect.svg?branch=master)](https://travis-ci.com/AyoAlfonso/strong-ssl-redirect)
-
-[![npm version](https://badge.fury.io/js/strong-ssl-redirect.svg)](https://badge.fury.io/js/strong-ssl-redirect)
+# strong-ssl-redirect  [![Build Status](https://travis-ci.com/AyoAlfonso/strong-ssl-redirect.svg?branch=master)](https://travis-ci.com/AyoAlfonso/strong-ssl-redirect) [![npm version](https://badge.fury.io/js/strong-ssl-redirect.svg)](https://badge.fury.io/js/strong-ssl-redirect)
 
 The strong SSL redirect middleware that redirects non-secure access to HTTPS works well with AWS and heroku.
 
