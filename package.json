@@ -1,6 +1,6 @@
 {
   "name": "strong-ssl-redirect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A NPM package that forces SSL redirect on user requests",
   "main": "server.js",
   "scripts": {
